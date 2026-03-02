@@ -59,6 +59,7 @@
 ###
 
 <p align="left">docker build -t meu-projeto .<br>docker images</p>
+<img src="images/01-docker-build.png" width="600"/>
 
 ###
 
@@ -75,6 +76,7 @@
 ###
 
 <p align="left">http://localhost:8080</p>
+<img src="images/02-localhost-running.png" width="600"/>
 
 ###
 
@@ -103,6 +105,7 @@
 ###
 
 <p align="left">docker push diogo11254/meu-projeto:latest</p>
+<img src="images/03-dockerhub.png" width="600"/>
 
 ###
 
@@ -115,6 +118,7 @@
 ###
 
 <p align="left">- Região: sa-east-1 (São Paulo)<br>- Tipo: t3.micro<br>- Sistema Operacional: Ubuntu Server 24.04 LTS</p>
+<img src="images/04-ec2-instance.png" width="600"/>
 
 ###
 
@@ -123,6 +127,7 @@
 ###
 
 <p align="left">- Porta 22 liberada apenas para meu IP<br>- Porta 80 liberada<br>- Posteriormente porta 8080 liberada após troubleshooting<br>- Acesso via chave .pem.</p>
+<img src="images/05-security-group.png" width="600"/>
 
 ###
 
@@ -151,6 +156,7 @@
 ###
 
 <p align="left">sudo docker run -d -p 8080:80 diogo11254/meu-projeto:latest<br>sudo docker ps</p>
+<img src="images/07-docker-ps-ec2.png" width="600"/>
 
 ###
 
@@ -167,6 +173,7 @@
 ###
 
 <h5 align="left">Solução:</h5>
+<img src="images/06-ssh-connected.png" width="600"/>
 
 ###
 
@@ -234,7 +241,7 @@
 
 ###
 
-<p align="left">- Navegador desktop<br>- Navegador mobile (celular)</p>
+<img src="images/08-mobile-access.png" width="250"/>
 
 ###
 
